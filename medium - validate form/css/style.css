@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+form input, form label {
+  display: block;
+}
+
+.contactForm {
+  margin: 20px;
+  width: 400px;
+  padding: 40px;
+  border: 1px solid black;
+}
+
+.contactForm label {
+  margin-top: 10px;
+}
+
+.contactForm input {
+  padding-left: 5px;
+  /*margin-bottom: 10px;*/
+  font-size: 10px;
+  height: 20px;
+  width: 200px;
+}
+.subAddress {
+  margin-top: 10px;
+}
+.subAddress label, .subAddress input{
+  display: inline-block;
+}
+
+.subAddress input {
+  width: 20px;
+  margin-right: 8px;
+  position: relative;
+}
+
+.subAddress input[name=formCity] {
+  width: 70px;
+}
+
+.subAddress input[name=formZipCode] {
+  width: 35px;
+}
+
+#formSubmit {
+  margin-top: 10px;
+  width: 50px;
+
+
+}
+.inner-sub {
+  display: block;
+}
+
+label.error {
+  color: red;
+  font-style: italic;
+  font-size: .75rem;
+  margin-top: 0;
+
+}

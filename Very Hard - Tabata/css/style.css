@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 14px;
+}
+.container-inputs {
+  margin: 30px auto;
+  border: 1px solid black;
+  display: block;
+  width: 80%;
+}
+.content-inputs {
+  display: block;
+  margin: 10px 8px;
+
+}
+
+.content-inputs * {
+  display: inline-block;
+}
+
+.content-inputs label {
+  text-align: left;
+}
+
+.content-inputs input {
+  height: 20px;
+  width: 35px;
+  padding-left: 5px;
+  border: 1px solid #ccc;
+}
+
+.content-buttons {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.button-start {
+  background-color: green;
+  color: white;
+  font-size: 1.25rem;
+  margin: 10px 8px;
+  border: 1px solid #ccc;
+  width: 75px;
+  height: 35px;
+  display: inline-block;
+  border-radius: 5%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.button-stop {
+  background-color: red;
+  color: white;
+  font-size: 1.25rem;
+  margin: 10px 8px;
+  border: 1px solid #ccc;
+  width: 75px;
+  height: 35px;
+  display: inline-block;
+  border-radius: 5%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*****TIMERS*****/
+
+.container-tabata {
+  margin: 30px auto;
+  border: 1px solid black;
+  display: block;
+  width: 80%;
+}
+
+.set-count {
+  border: 1px solid black;
+  display: block;
+}
+
+.interval-count {
+  border: 1px solid black;
+  display: block;
+}
+
+.rest-count, .interval-count, .set-count {
+  border: 1px solid black;
+  display: block;
+  margin: 10px auto;
+  width: 60%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.tabata-label, .timer {
+  display: block;
+}
+.timer {
+  font-size: 1.25rem;
+}
